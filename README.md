@@ -8,3 +8,4 @@ A Python script that simulates user input to automatically dig for coins in Club
 * Using a dictionary to return multiple variables from a function in python.
 * Improved knowledge of python syntax.
 * Installation of external python libraries to solve a problem.
+* The fundamentals of efficiently mining coins in Club Penguin and optimal dig times to ensure maximum coin gathering.

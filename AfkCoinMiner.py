@@ -1,3 +1,5 @@
+# AFK Club Penguin Coin Mining script by Harry Upton
+
 from pynput.keyboard import Key, Controller as kc
 from pynput.mouse import Button, Controller as mc
 import time

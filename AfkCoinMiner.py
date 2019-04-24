@@ -13,7 +13,7 @@ oldY = 0
 
 
 
-# Pass the arguments from the command line,
+# Pass the arguments from the command line.
 parser = argparse.ArgumentParser()
 
 parser.add_argument("x1", type=int, help="The x coordinate of the upper left corner of the zone to dig within.")

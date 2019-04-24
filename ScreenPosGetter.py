@@ -1,5 +1,5 @@
 # This script repeatedly prints the pixel coordinates of the mouse on the screen,
-# to make it easier to specify the region the mining script should dig within.
+#  making it easier to specify the region the mining script should dig within.
 
 from pynput.keyboard import Key, Controller as kc
 from pynput.mouse import Button, Controller as mc

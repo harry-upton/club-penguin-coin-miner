@@ -56,8 +56,9 @@ def pick_position():
     
         # Compare this position is far enough away from the old position so that we do not accidently click on ourselves.
         dist = math.hypot(xPos - oldX, yPos - oldY)
+        
+        # If we are far enough away, break the loop and return the coordinates.
         if(abs(dist) > minDistance):
-            # If we are far enough away, break the loop and return the coordinates.
             break
         
     # Return the coordinates.

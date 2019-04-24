@@ -11,8 +11,6 @@ mouse = mc()
 oldX = 0
 oldY = 0
 
-
-
 # Pass the arguments from the command line.
 parser = argparse.ArgumentParser()
 
@@ -65,7 +63,6 @@ def pick_position():
     # Return the coordinates.
     return {'xPos': xPos, 'yPos': yPos}
     
-
 print('Beginning {0} iterations of Club Penguin coin mining in zone: {1},{2} - {3},{4}  in 5 seconds. Have the Club Penguin browser window open and selected, in the correct position as to align with the inputted mining zone.'.format(numberOfIterations,x1,y1,x2,y2))
 time.sleep(5)
 

@@ -3,7 +3,7 @@ A Python script that simulates user input to automatically dig for coins in Club
 
 # What I learned
 * Receiving and parsing input parameters to a python script from the command line.
-* Using the pynput library to simulate user input
+* Using the pynput library to simulate user input.
 * Using a dictionary to return multiple variables from a function in python.
 * Throwing and logging errors in python.
 * The basics of hosting a project on Github, as well as understanding of the Github workflow.

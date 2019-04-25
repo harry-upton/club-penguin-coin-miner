@@ -69,7 +69,7 @@ def pick_position():
 print('Beginning {0} iterations of Club Penguin coin mining in zone: {1},{2} - {3},{4}  in 5 seconds. Have the Club Penguin browser window open and selected, in the correct position as to align with the inputted mining zone.'.format(numberOfIterations,x1,y1,x2,y2))
 time.sleep(5)
 
-for x in range(1, numberOfIterations):
+for x in range(0, numberOfIterations):
     
     # Find the position we will move the penguin to.
     result = pick_position()
@@ -80,7 +80,7 @@ for x in range(1, numberOfIterations):
     oldY = newYPos
     
     # Move to that position.
-    print('Moving to coordinates: {0},{1}  [Iteration number: {2}]'.format(newXPos,newYPos, x))
+    print('Moving to coordinates: {0},{1}  [Iteration number: {2}]'.format(newXPos,newYPos, x + 1))
     mouse.position = (newXPos,newYPos)
     mouse.press(Button.left)
     mouse.release(Button.left)

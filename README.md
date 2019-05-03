@@ -6,7 +6,5 @@ A Python script that simulates user input to automatically dig for coins in Club
 * Using the pynput library to simulate user input.
 * Using a dictionary to return multiple variables from a function in python.
 * Throwing and logging errors in python.
-* The basics of hosting a project on Github, as well as understanding of the Github workflow.
 * Improved knowledge of python syntax.
 * The fundamentals of efficiently mining coins in Club Penguin and optimal dig times to ensure maximum coin gathering.
-

@@ -92,5 +92,3 @@ for x in range(0, numberOfIterations):
     time.sleep(digtime)
     
 print('Finished {0} iterations of coin mining.'.format(numberOfIterations))
-    
-
